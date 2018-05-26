@@ -1,0 +1,124 @@
+body {
+	background: url(wallpaper.jpg);
+	background-size: cover;
+}
+
+#jogotransp {
+	height: 600px;
+	width: 200px;
+	float: left;
+}
+
+#jogo {
+	background: black;
+	color: white;
+	height: 600px;
+	width: 200px;
+	border-radius: 25px;
+	opacity: 0.65;
+	text-align: center;
+}
+
+#cat {
+	font-size: 50px;
+	padding-top: 10px;
+}
+
+#regras {
+	font-size: 23px;
+}
+
+#escolhastransp {
+	height: 575px;
+	width: 100px;
+	float: left;
+	padding-top: 50px;
+}
+
+#escolhas {
+	height: 575px;
+	width: 100px;
+	border-radius: 25px;
+	text-align: center;
+	opacity: 0.65;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.escolhas {
+	background: black;
+	color: white;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 15px;
+	float: left;
+}
+
+.escolhas i {
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 45px;
+}
+
+#resultadotransp {
+	height: 400px;
+	width: 400px;
+	padding-top: 100px;
+	padding-left: 60px;
+	float: left;
+}
+
+#resultado {
+	background: black;
+	color: white;
+	height: 400px;
+	width: 400px;
+	border-radius: 250px;
+	text-align: center;
+	font-size: 15px;
+	float: left;
+	opacity: 0.65;
+}
+
+img {
+	height: 400px;
+	width: 400px;
+	padding-top: 27px;
+	opacity: 0.9;
+}
+
+#contadortransp {
+	height: 200px;
+	width: 200px;
+	float: left;
+	padding-top: 200px;
+	padding-left: 40px;
+}
+
+#contador {
+	background: black;
+	color: white;
+	height: 200px;
+	width: 200px;
+	border-radius: 25px;
+	opacity: 0.65;
+	text-align: center;
+}
+
+#vit {
+	padding-top: 10px;
+}
+
+label {
+	font-size: 30px;
+}
+
+#fimtransp {
+	opacity: 0.65;
+	font-size: 100px;
+	padding-top: 260px;
+	padding-left: 30px;
+	float: left;
+}

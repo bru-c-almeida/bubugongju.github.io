@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jo.Ken.Po</title>
+
+		<!-- meu css -->
+		<link rel="stylesheet" type="text/css" href="edit.css">
+
+		<!-- meu javascript -->
+		<script type="text/javascript" src="script.js"></script>
+
+		<!-- icones utilizados -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+		<!-- responsividade -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+		<div id="jogotransp">
+			<div id="jogo">
+				<i id="cat" class="fab fa-github-alt"></i>
+
+				<h1>Jo Ken Po</h1>
+				<p>
+					Jogo baseado na versão apresentada na série <strong>The Big Bang Theory</strong>. <br><br>
+					Jogue contra a inteligência artificial. Selecione uma das opções ao lado e tente sua sorte.
+				</p>
+
+				<h2>Regras</h2>
+				<p id="regras">	
+					<i class="far fa-hand-scissors"></i> <i class="fas fa-angle-right"></i> <i class="far fa-hand-paper" style="padding-right: 10px;"></i> | <i class="far fa-hand-scissors" style="padding-left: 10px;"></i> <i class="fas fa-angle-right"></i> <i class="far fa-hand-lizard"></i><br><br> 
+
+					<i class="far fa-hand-paper"></i> <i class="fas fa-angle-right"></i> <i class="far fa-hand-rock" style="padding-right: 10px;"></i> | <i class="far fa-hand-paper" style="padding-left: 10px;"></i> <i class="fas fa-angle-right"></i> <i class="far fa-hand-spock"></i><br><br>
+
+					<i class="far fa-hand-rock"></i> <i class="fas fa-angle-right"></i> <i class="far fa-hand-lizard" style="padding-right: 10px;"></i> | <i class="far fa-hand-rock" style="padding-left: 10px;"></i> <i class="fas fa-angle-right"></i> <i class="far fa-hand-scissors"></i><br><br>
+
+					<i class="far fa-hand-lizard"></i> <i class="fas fa-angle-right"></i> <i class="far fa-hand-spock" style="padding-right: 10px;"></i> | <i class="far fa-hand-lizard" style="padding-left: 10px;"></i> <i class="fas fa-angle-right"></i> <i class="far fa-hand-paper"></i><br><br>
+
+					<i class="far fa-hand-spock"></i> <i class="fas fa-angle-right"></i> <i class="far fa-hand-scissors" style="padding-right: 10px;"></i> | <i class="far fa-hand-spock" style="padding-left: 10px;"></i> <i class="fas fa-angle-right"></i> <i class="far fa-hand-rock"></i><br>
+				</p>	
+			</div>
+		</div>
+
+		<div id="escolhastransp">
+			<div id="escolhas">
+				<div id="rock" class="escolhas">
+					<i class="far fa-hand-rock"></i><br>pedra
+				</div>
+
+				<div id="paper" class="escolhas">
+					<i class="far fa-hand-paper"></i><br>papel
+				</div>
+
+				<div id="scissors" class="escolhas">
+					<i class="far fa-hand-scissors"></i><br>tesoura
+				</div>
+
+				<div id="lizard" class="escolhas">
+					<i class="far fa-hand-lizard"></i><br>lagarto
+				</div>
+
+				<div id="spock" class="escolhas">
+					<i class="far fa-hand-spock"></i><br>spock
+				</div>
+			</div>
+		</div>
+		
+		<div id="resultadotransp">
+			<div id="resultado">
+				<img id="wl" src="neutro.png">
+			</div>
+		</div>
+
+		<div id="contadortransp">
+			<div id="contador">
+				<h2 id="vit">Vitórias</h2>
+				<label id="numvit">0</label>
+				<h2 id="der">Derrotas</h2>
+				<label id="numder">0</label>
+			</div>
+		</div>
+
+		<div id="fimtransp">
+			<i class="fas fa-star"></i>
+		</div>
+	</body>
+</html>
